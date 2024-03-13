@@ -1,5 +1,5 @@
 {
-  "name": "structured-contents-use-case",
+  "name": "by-domain-data-display",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,7 @@
     "build": "run-p type-check build-only",
     "preview": "vite preview",
     "test:unit": "vitest run",
-    "build-only": "vite build --base=/structured-contents-use-case/",
+    "build-only": "vite build --base=/by-domain-data-display/",
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "prettier --write src/"
